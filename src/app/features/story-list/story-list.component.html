@@ -1,1 +1,15 @@
-<p>story-list works!</p>
+<ng-container *ngIf="!stories$">
+    <div class="alert alert-warning" role="alert">
+        No stories found!
+    </div>
+</ng-container>
+
+<ng-container *ngIf="stories$ | async as stories">
+    <div class="col" *ngFor="let story of stories">
+        <div class="text-center">
+            <button class="btn btn-outline-primary mt-2 mb-2" [routerLink]="['/stories', story]">
+                {{story}}
+            </button>
+        </div>
+    </div>
+</ng-container>
