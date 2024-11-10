@@ -31,6 +31,9 @@ export class StoryListComponent {
         if (this.mode === this.ongoingMode) {
           this.stories$ = this.storyService.getStoryNames(false);
         }
+        else {
+          this.stories$ = this.storyService.getStoryNames(true);
+        }
       }
     })
   }
