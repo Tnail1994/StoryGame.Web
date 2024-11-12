@@ -26,4 +26,4 @@ Story lists view: Service sends get request for completed or ongoing stories
 Story details lists view: Service sends get and put request for getting story info and updating sentences
 
 ![Completed story without topic](src/assets/completeddetailswithouttopic-screenshot.png "Completed story without topic")
-![Ongoing story with topic](src/assets/ongoingstories-screenshot.png "Ongoing story with topic")
+![Ongoing story with topic](src/assets/ongoingdetailswithtopic-screenshot.png "Ongoing story with topic")
