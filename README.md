@@ -8,18 +8,22 @@ An Angular Web Application. The Game called 'One Line Story'.
 ## Screenshots
 
 Main menu view: Navigating to `CreateStory` or `StoryListComponent`
+
 ![Main menu](src/assets/mainmenu-screenshot.png "Main menu")
 
 
 Create story view: Service sends put request, when form is valid
+
 ![Create a story](src/assets/addnewstory-screenshot.png "Create a story")
 
 
 Story lists view: Service sends get request for completed or ongoing stories
+
 ![Completed stories](src/assets/allcompletedstories-screenshot.png "Completed stories")
 ![Ongoing stories](src/assets/ongoingstories-screenshot.png "Ongoing stories")
 
 
 Story details lists view: Service sends get and put request for getting story info and updating sentences
+
 ![Completed story without topic](src/assets/completeddetailswithouttopic-screenshot.png "Completed story without topic")
 ![Ongoing story with topic](src/assets/ongoingstories-screenshot.png "Ongoing story with topic")
